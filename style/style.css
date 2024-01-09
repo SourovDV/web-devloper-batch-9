@@ -7,8 +7,7 @@
 /* header */
 .banner {
     border-radius: 16px;
-    background-image: url(..//picture/Banner\ Image.png);
-    filter: brightness(90%);
+    background: linear-gradient(80deg,#070211 0%, rgba(7,2,17,0)100%),url(../picture/Banner\ Image.png);
     width: 68%;
     height: 600px;
     border-radius: 16px;
@@ -19,14 +18,14 @@
 .banner .banner-text {
     font-size: 20px;
     padding-top: 18%;
-    color: rgb(241, 218, 6);
+    color: white;
 
 }
 
 .banner .banner-body {
     width: 28%;
     margin: 5px auto;
-    color: rgb(241, 218, 7);
+    color:white;
     font-size: 40px;
 }
 
