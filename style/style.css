@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+}
+.banner {
+    border-radius: 16px;
+    background-image: url(..//picture/Banner\ Image.png);
+    filter: brightness(90%);
+    width: 68%;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px auto;
+    text-align: center;
+}
+.banner .banner-text{
+    padding-top: 18%;
+    color:white;
+
+}
+.banner .banner-body{
+    width: 28%;
+    margin: 5px auto;
+    color:white;
+    font-size: 40px;
+}
