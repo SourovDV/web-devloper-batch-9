@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
     font-family: 'Inter', sans-serif;
 }
+
 /* header */
 .banner {
     border-radius: 16px;
@@ -13,53 +15,111 @@
     margin: 50px auto;
     text-align: center;
 }
-.banner .banner-text{
+
+.banner .banner-text {
     padding-top: 18%;
-    color:white;
+    color: white;
 
 }
-.banner .banner-body{
+
+.banner .banner-body {
     width: 28%;
     margin: 5px auto;
-    color:white;
+    color: white;
     font-size: 40px;
 }
 
 /* catagory */
 
-.catagory{
+.catagory {
     text-align: center;
 }
-.catagory h1{
-    color:red;
+
+.catagory h1 {
+    color: red;
     font-size: 60px;
 
 }
-.catagory h4{
-    color:red;
-    font-size:18px;
+
+.catagory h4 {
+    color: red;
+    font-size: 18px;
 
 }
-.catagory h2{
-    font-size:38px;
+
+.catagory h2 {
+    font-size: 38px;
 }
+
 /* container */
-.container{
+.container {
     width: 68%;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
-    background-image:url(..//picture/Vectorrr.png);
+    background-image: url(..//picture/Vectorrr.png);
 
 }
-.container-text{
+
+.container-text {
     width: 30%;
-    color:white;
-    padding:50px  50px 50px 80px
+    color: white;
+    padding: 50px 50px 50px 80px
 }
-.container-text h1{
+
+.container-text h1 {
     font-size: 50px;
 }
-.container-img{
+
+.container-img {
     padding: 40px 70px 10px 20px;
+}
+
+/* text */
+.text {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 68%;
+    margin: 70px auto;
+    text-align: center;
+    padding-top: 7%;
+    height: 300px;
+
+}
+span {
+    color: red;
+}
+
+/* portfolio */
+.Portfolio{
+    width: 68%;
+    margin: 20px auto;
+    ;
+}
+   
+.triangle{
+    color:red;
+    font-size: 24px;
+    
+}
+.triangle-text{
+    font-size: 38px;
+    line-height: 0%;
+    
+}
+.triangle-text-p{
+    width: 50%;
+}
+
+ 
+.shoping{
+    display: flex;
+    width: 68%;
+    margin:10px auto;
+    gap:20px;
+}
+.gogles-degine{
+    display: flex;
+    width: 68%;
+    margin:10px auto;
+    gap:20px;
 }
