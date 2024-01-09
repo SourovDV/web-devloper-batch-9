@@ -2,6 +2,7 @@
 * {
     font-family: 'Inter', sans-serif;
 }
+/* header */
 .banner {
     border-radius: 16px;
     background-image: url(..//picture/Banner\ Image.png);
@@ -22,4 +23,43 @@
     margin: 5px auto;
     color:white;
     font-size: 40px;
+}
+
+/* catagory */
+
+.catagory{
+    text-align: center;
+}
+.catagory h1{
+    color:red;
+    font-size: 60px;
+
+}
+.catagory h4{
+    color:red;
+    font-size:18px;
+
+}
+.catagory h2{
+    font-size:38px;
+}
+/* container */
+.container{
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    background-image:url(..//picture/Vectorrr.png);
+
+}
+.container-text{
+    width: 30%;
+    color:white;
+    padding:50px  50px 50px 80px
+}
+.container-text h1{
+    font-size: 50px;
+}
+.container-img{
+    padding: 40px 70px 10px 20px;
 }
