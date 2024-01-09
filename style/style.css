@@ -17,15 +17,16 @@
 }
 
 .banner .banner-text {
+    font-size: 20px;
     padding-top: 18%;
-    color: white;
+    color: rgb(241, 218, 6);
 
 }
 
 .banner .banner-body {
     width: 28%;
     margin: 5px auto;
-    color: white;
+    color: rgb(241, 218, 7);
     font-size: 40px;
 }
 
@@ -33,6 +34,7 @@
 
 .catagory {
     text-align: center;
+    margin-top:80px
 }
 
 .catagory h1 {
@@ -56,7 +58,7 @@
     width: 68%;
     display: flex;
     justify-content: space-between;
-    margin: 20px auto;
+    margin: 80px auto;
     background-image: url(..//picture/Vectorrr.png);
 
 }
@@ -88,29 +90,66 @@
 span {
     color: red;
 }
+/* in-2024 */
+.in-2024{
+    display: flex;
+    width: 68%;
+    margin:20px auto;
+    gap:60px
 
+}
+.comming h3{
+    color:red;
+}
+.comming h1{
+    font-size:48px ;
+}
+.comming p{
+    width: 95%;
+}
+.cooming-2k24{
+    color:red;
+    gap:60px;
+    
+}
+
+.ptek{
+    width: 60%;
+    width: 95%;
+    
+}
+
+.comming img{
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: -30px;
+
+}
 
 /* man-project */
 
 .holiday{
     width: 68%;
-    margin:10px auto;
+    margin:90px auto;
     text-align: center;
 }
 .holiday p{
     width: 40%;
    padding-left: 30%;
+
     
 }
 .holiday h1{
     font-size: 60px;
+    line-height: 0px;
 }
 .man-project{
     display: flex;
     width: 65%;
     height: 659px;
     margin:0px auto;
-    border:2px solid green;
+   
     background-image: url(..//picture/Rectangle\ 2.png),url(..//picture/Group\ 44.png);
     background-repeat: no-repeat;
     background-position: bottom  ,   center ;
@@ -132,7 +171,7 @@ span {
 /* portfolio */
 .Portfolio{
     width: 68%;
-    margin: 20px auto;
+    margin: 90px auto;
     ;
 }
    
@@ -148,6 +187,7 @@ span {
 }
 .triangle-text-p{
     width: 50%;
+     
 }
 
  
@@ -156,11 +196,17 @@ span {
     width: 68%;
     max-width: 69%;
     margin:80px auto;
-    gap:10px
+    gap:10px;
+    margin-top:-2%
+  
     
 }
- 
- 
+.image:hover{
+    border:4px solid rgb(37, 35, 35);
+    border-radius: 20px;
+    padding-bottom: -670px;
+} 
+
  
 .gogles-degine{
     display: flex;
@@ -219,7 +265,7 @@ span {
    
 }
 .logo{
-    margin-top: 14%;
+    margin-top: 10%;
     width: 25%;
     text-align: center;
 }
