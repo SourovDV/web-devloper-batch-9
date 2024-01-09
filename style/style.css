@@ -89,6 +89,46 @@ span {
     color: red;
 }
 
+
+/* man-project */
+
+.holiday{
+    width: 68%;
+    margin:10px auto;
+    text-align: center;
+}
+.holiday p{
+    width: 40%;
+   padding-left: 30%;
+    
+}
+.holiday h1{
+    font-size: 60px;
+}
+.man-project{
+    display: flex;
+    width: 65%;
+    height: 659px;
+    margin:0px auto;
+    border:2px solid green;
+    background-image: url(..//picture/Rectangle\ 2.png),url(..//picture/Group\ 44.png);
+    background-repeat: no-repeat;
+    background-position: bottom  ,   center ;
+    margin-top:40px
+
+}
+.ok{
+    color:red;
+}
+ 
+ 
+
+.background{
+    margin-top:-20%
+}
+
+
+
 /* portfolio */
 .Portfolio{
     width: 68%;
