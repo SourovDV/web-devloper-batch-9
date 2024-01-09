@@ -136,7 +136,7 @@ span {
     text-align: center;
     background: linear-gradient(120deg, rgba(163, 8, 8, 0.1) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding:80px 0px 20px ;
-    border:2px solid green;
+ 
 }
 #email{
     width:40%;
@@ -155,4 +155,51 @@ span {
      height: 63px;
      margin:20px 20px 30px -5px;
      border-radius:0px 40px 40px 0px
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    width: 100%;
+    margin:20px auto;
+    background-color: black;
+    gap:10%;
+    height: 400px;
+
+}
+.footer-container{
+    width: 23%;
+    padding:50px 0px 30px 90px;
+    text-align: center;
+    color:white;
+}
+.texte{
+    padding-top: 50%;
+   
+}
+.logo{
+    margin-top: 14%;
+    width: 25%;
+    text-align: center;
+}
+.contack {
+    width: 23%;
+    padding:50px 10% 30px 90px;
+    text-align: center;
+    color:white;
+}
+.contack h1{
+    background-image: url(../picture/Call.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.contack h2{
+    background-image: url(../picture/Website.png);
+    background-repeat: no-repeat;
+}
+.unsubscribe{
+     padding-top: 40%;
+     padding-left:50%;
+     padding-bottom:50%;
 }
